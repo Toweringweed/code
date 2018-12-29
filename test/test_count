@@ -1,0 +1,42 @@
+#!/usr/bin/env python
+# -*- encoding: utf-8 -*-
+# Created on 2016-07-21 16:18:45
+# Project: **
+
+from pyspider.database.mysql.mysqldb import ToMysql
+from pypinyin import lazy_pinyin
+import sys
+
+
+
+kwargs = {  'host':'localhost',
+                    'user':'root',
+                    'passwd':'luoxue99',
+                    'db':'youxin',
+                    'charset':'utf8'}
+sql = ToMysql(kwargs)
+try:
+    sql_query = 'select pinpai from che_ershou'
+    rows = sql.select(sql_query)
+    list2 = list(set(rows))
+    for list in list2:
+        pinpai = ','.join('%s' % r for r in list)
+        values = {
+            'pinpai': pinpai
+        }
+        sql.into('pinpai', **values)
+
+    sql_query2 = 'select che_ershou.pinpai, che_ershou.chexi, pinpai.id from che_ershou left join che_ershou on pinpai.pinpai = che_ershou.pinpai '
+    rows = sql.select(sql_query2)
+    c_lists = list(set(rows))
+    for c_list in c_lists:
+        cases = ','.join('%s' % r for r in c_list)
+        case = cases.split(',')
+        print(case)
+
+
+
+
+finally:
+    sql.cursor.close()
+    sql.conn.close()

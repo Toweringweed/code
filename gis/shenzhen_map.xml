@@ -1,0 +1,95 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<osm version="0.6" generator="CGImap 0.6.1 (1899 thorn-01.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<relation id="3464353" visible="true" version="54" changeset="65835744" timestamp="2018-12-28T09:28:44Z" user="Wetitpig0" uid="4725981">
+<member type="node" ref="5113296515" role="admin_centre"/>
+<member type="node" ref="3510661780" role="label"/>
+<member type="way" ref="363253972" role="outer"/>
+<member type="way" ref="98683064" role="outer"/>
+<member type="way" ref="144723222" role="outer"/>
+<member type="way" ref="611541224" role="outer"/>
+<member type="way" ref="658684401" role="outer"/>
+<member type="way" ref="380354682" role="outer"/>
+<member type="way" ref="623890626" role="outer"/>
+<member type="way" ref="625132436" role="outer"/>
+<member type="way" ref="535567416" role="outer"/>
+<member type="way" ref="535568984" role="outer"/>
+<member type="way" ref="535581787" role="outer"/>
+<member type="way" ref="620566159" role="outer"/>
+<member type="way" ref="380279207" role="outer"/>
+<member type="way" ref="28291441" role="outer"/>
+<member type="way" ref="98699345" role="outer"/>
+<member type="way" ref="98699344" role="outer"/>
+<member type="way" ref="98683066" role="outer"/>
+<member type="way" ref="621470598" role="outer"/>
+<member type="way" ref="658684399" role="outer"/>
+<member type="way" ref="630844159" role="outer"/>
+<member type="way" ref="577605760" role="outer"/>
+<member type="way" ref="363251999" role="outer"/>
+<member type="way" ref="630844161" role="outer"/>
+<member type="way" ref="363424516" role="outer"/>
+<member type="way" ref="263315678" role="outer"/>
+<member type="way" ref="589291454" role="outer"/>
+<member type="way" ref="328234602" role="outer"/>
+<member type="way" ref="258102825" role="outer"/>
+<member type="way" ref="318806388" role="outer"/>
+<member type="way" ref="266553887" role="outer"/>
+<member type="way" ref="380344593" role="outer"/>
+<member type="way" ref="318806386" role="outer"/>
+<member type="way" ref="380354680" role="outer"/>
+<member type="way" ref="380429933" role="outer"/>
+<member type="way" ref="380428995" role="outer"/>
+<member type="way" ref="380354684" role="outer"/>
+<member type="way" ref="380396709" role="outer"/>
+<member type="way" ref="380394410" role="outer"/>
+<member type="way" ref="363428369" role="outer"/>
+<member type="way" ref="380393762" role="outer"/>
+<member type="way" ref="363428860" role="outer"/>
+<member type="way" ref="630206701" role="outer"/>
+<member type="way" ref="223163170" role="outer"/>
+<member type="way" ref="98683065" role="outer"/>
+<member type="way" ref="407709474" role="outer"/>
+<member type="way" ref="611444545" role="outer"/>
+<member type="way" ref="414794194" role="outer"/>
+<member type="way" ref="115326581" role="inner"/>
+<member type="way" ref="407708241" role="inner"/>
+<member type="way" ref="414794203" role="inner"/>
+<member type="way" ref="414794201" role="inner"/>
+<member type="way" ref="414794198" role="inner"/>
+<member type="way" ref="414794199" role="inner"/>
+<member type="way" ref="414794204" role="inner"/>
+<member type="way" ref="414794197" role="inner"/>
+<member type="way" ref="414794200" role="inner"/>
+<member type="relation" ref="5664101" role="subarea"/>
+<member type="relation" ref="5664191" role="subarea"/>
+<member type="relation" ref="5664102" role="subarea"/>
+<member type="relation" ref="5664193" role="subarea"/>
+<member type="relation" ref="5664194" role="subarea"/>
+<member type="relation" ref="5664195" role="subarea"/>
+<member type="relation" ref="4590423" role="subarea"/>
+<member type="relation" ref="5663273" role="subarea"/>
+<member type="relation" ref="5664192" role="subarea"/>
+<tag k="admin_level" v="5"/>
+<tag k="alt_name" v="Shenzhen;深圳"/>
+<tag k="boundary" v="administrative"/>
+<tag k="division_code" v="440300"/>
+<tag k="is_in:country" v="China"/>
+<tag k="is_in:country_code" v="CN"/>
+<tag k="is_in:province" v="Guangdong"/>
+<tag k="name" v="深圳市"/>
+<tag k="name:ar" v="شنجن"/>
+<tag k="name:ba" v="Шэньчжэнь"/>
+<tag k="name:en" v="Shenzhen City"/>
+<tag k="name:eo" v="Ŝenĵeno"/>
+<tag k="name:hi" v="शेन्झेन"/>
+<tag k="name:ja" v="深セン市"/>
+<tag k="name:ko" v="선전시"/>
+<tag k="name:pl" v="Shenzhen"/>
+<tag k="name:ru" v="Шэньчжэнь"/>
+<tag k="name:ur" v="شینزین"/>
+<tag k="name:zh" v="深圳市"/>
+<tag k="population" v="12528300"/>
+<tag k="type" v="boundary"/>
+<tag k="wikidata" v="Q15174"/>
+<tag k="wikipedia" v="en:Shenzhen"/>
+</relation>
+</osm>

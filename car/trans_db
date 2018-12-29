@@ -1,0 +1,207 @@
+#!/usr/bin/env python
+# -*- encoding: utf-8 -*-
+# Project: ershouche
+
+from pyspider.database.mysql.mysqldb import ToMysql
+import sys
+
+class Strconvert:
+
+    def __init__(self, string):
+        if string != '':
+            self.str1 = string.replace('-', '').replace('—', '').replace('\n', '').replace('ml', '').replace('mm', '')\
+                .replace('kg', '').replace('mL', '').replace('L/100km', '').replace('工信部未公布', '').\
+                replace('自然吸气', '').strip()
+            if self.str1 == '':
+                self.str1 = -99
+        else:
+            self.str1 = -99
+
+    def to_int(self):
+        return int(self.str1)
+
+    def to_float(self):
+        return float(self.str1)
+
+
+kwargs = {
+    'host': 'localhost',
+    'user': 'root',
+    'passwd': 'luoxue99',
+    'db': 'ershouche',
+    'charset': 'utf8'
+}
+sql = ToMysql(kwargs)
+sql_query = "select * from ershouche_youxin limit 49292, 75000"
+rows = sql.select(sql_query)
+
+for case in rows:
+    print(case[0])
+    bianhao = case[1]
+    pinpai = case[2]
+    biaoti = case[3]
+    chexi = case[4]
+    jiage = case[5]
+    yuanjia = case[6]
+    yuanjia_r = yuanjia.replace('（含税）', '').replace('同款', '').replace('新车', '').replace('--', '').\
+        replace('当时购入', '').replace('价格', '').replace('同型', '').replace('-', '').replace('—', '').\
+        replace('(含税)', '').replace('\n', '').strip()
+    if '万' in yuanjia_r:
+        v_yuanjia = float(yuanjia_r.replace('万', ''))*10000
+    elif  yuanjia_r == '':
+        v_yuanjia = -99
+    else:
+        v_yuanjia = float(yuanjia_r)
+
+    licheng = case[7]
+    shangpaishijian = case[8]
+    shangjiashijian = case[9]
+    car_age_days = case[10]
+    car_age_months = case[11]
+    car_age_years = case[12]
+    paifangbiaozhun = case[13]
+    city = case[14]
+    guohucishu = case[15]
+    shiyongxingzhi = case[16]
+    baoyangqingkuang = case[17]
+    changshang = case[18]
+    cheliangjibie = case[19]
+    ranyoubiaohao = case[20]
+    huanbaobaiozhun = case[21]
+    zuidaniujuzhuansu = case[22]
+    zuidaniuju = case[23]
+    v_zuidaniuju = Strconvert(zuidaniuju).to_float()
+
+    zuidagonglvzhuansu = case[24]
+    zuidagonglv = case[25]
+    v_zuidagonglv = Strconvert(zuidagonglv).to_float()
+
+    zuidamali = case[26]
+    v_zuidamali = Strconvert(zuidamali).to_float()
+
+    xingcheng = case[27]
+
+    v_xingcheng = Strconvert(xingcheng).to_float()
+
+    gangjing = case[28]
+    v_gangjing = Strconvert(gangjing).to_float()
+
+    yasuobi = case[29]
+    v_yasuobi = Strconvert(yasuobi).to_float()
+
+    qimenjishu = case[30]
+    v_qimenjishu = qimenjishu.replace('\n', '').strip()
+
+    ranyoupengsheleixing = case[31]
+    fadongjileixing = case[32]
+    paiqiliang = case[33]
+
+    v_paiqiliang = Strconvert(paiqiliang).to_float()
+
+    houxuangualeixing = case[34]
+    qianxuangualeixing = case[35]
+
+    baigonglijiasu = case[36]
+    v_baigonglijiasu = Strconvert(baigonglijiasu).to_float()
+
+    zuigaochesu = case[37]
+    v_zuigaochesu = Strconvert(zuigaochesu).to_float()
+
+    cheshenyanse = case[38]
+    cheshenjiegou = case[39]
+    zhengbeizhiliang = case[40]
+    v_zhengbeizhiliang = Strconvert(zhengbeizhiliang.replace(',', '')).to_int()
+    zhouju = case[41]
+    v_zhouju = Strconvert(zhouju.replace(',', '')).to_int()
+
+    fadongjixinghao = case[42]
+    biansuxiang = case[43]
+    pailiang = case[44]
+    v_pailiang = Strconvert(pailiang).to_int()
+
+    ranliaoleixing = case[45]
+    qudongxingshi = case[46]
+    zongheyouhao = case[47]
+    v_zongheyouhao = Strconvert(zongheyouhao).to_float()
+
+    jibenxinxi1 = case[48]
+    jibenxinxi2 = case[49]
+    fadongjicanshu = case[50]
+    fadongjicanshu2 = case[51]
+    dipancanshu = case[52]
+    dipancanshu2 = case[53]
+    xingnengcanshu = case[54]
+    xingnengcanshu2 = case[55]
+    gengduocanshu = case[56]
+    gengduocanshu2 = case[57]
+    url = case[58]
+    time_now = case[59]
+
+    values = {
+        'bianhao': bianhao,
+        'pinpai': pinpai,
+        'biaoti': biaoti,
+        'chexi': chexi,
+        'jiage': jiage,
+        'yuanjia': v_yuanjia,
+        'licheng': licheng,
+        'shangpaishijian': shangpaishijian,
+        'shangjiashijian': shangjiashijian,
+        'car_age_days': car_age_days,
+        'car_age_months': car_age_months,
+        'car_age_years': car_age_years,
+        'paifangbiaozhun': paifangbiaozhun,
+        'city': city,
+        'guohucishu': guohucishu,
+        'shiyongxingzhi': shiyongxingzhi,
+        'baoyangqingkuang': baoyangqingkuang,
+        'changshang': changshang,
+        'cheliangjibie': cheliangjibie,
+        'ranyoubiaohao': ranyoubiaohao,
+        'huanbaobaiozhun': huanbaobaiozhun,
+        'zuidaniujuzhuansu': zuidaniujuzhuansu,
+        'zuidaniuju': v_zuidaniuju,
+        'zuidagonglvzhuansu': zuidagonglvzhuansu,
+        'zuidagonglv': v_zuidagonglv,
+        'zuidamali': v_zuidamali,
+        'xingcheng': v_xingcheng,
+        'gangjing': v_gangjing,
+        'yasuobi': v_yasuobi,
+        'qimenjishu': v_qimenjishu,
+        'ranyoupengsheleixing': ranyoupengsheleixing,
+        'fadongjileixing': fadongjileixing,
+        'paiqiliang': v_paiqiliang,
+        'houxuangualeixing': houxuangualeixing,
+        'qianxuangualeixing': qianxuangualeixing,
+        'baigonglijiasu': v_baigonglijiasu,
+        'zuigaochesu': v_zuigaochesu,
+        'cheshenyanse': cheshenyanse,
+        'cheshenjiegou': cheshenjiegou,
+        'zhengbeizhiliang': v_zhengbeizhiliang,
+        'zhouju': v_zhouju,
+        'fadongjixinghao': fadongjixinghao,
+        'biansuxiang': biansuxiang,
+        'pailiang': v_pailiang,
+        'ranliaoleixing': ranliaoleixing,
+        'qudongxingshi': qudongxingshi,
+        'zongheyouhao': v_zongheyouhao,
+        'jibenxinxi1': jibenxinxi1,
+        'jibenxinxi2': jibenxinxi2,
+        'fadongjicanshu': fadongjicanshu,
+        'fadongjicanshu2': fadongjicanshu2,
+        'dipancanshu': dipancanshu,
+        'dipancanshu2': dipancanshu2,
+        'xingnengcanshu': xingnengcanshu,
+        'xingnengcanshu2': xingnengcanshu2,
+        'gengduocanshu': gengduocanshu,
+        'gengduocanshu2': gengduocanshu2,
+        'url': url,
+        'time_now': time_now
+    }
+
+    sql.into('ershouche_youxin_a', **values)
+
+
+
+
+

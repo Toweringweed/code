@@ -1,0 +1,155 @@
+#!/usr/bin/env python
+# -*- encoding: utf-8 -*-
+# Created on 2016-07-21 16:18:45
+# Project: **
+
+from pyspider.database.mysql.mysqldb import ToMysql
+from pypinyin import lazy_pinyin
+import sys
+
+
+
+kwargs = {  'host':'localhost',
+                    'user':'root',
+                    'passwd':'luoxue99',
+                    'db':'youxin',
+                    'charset':'utf8'}
+sql = ToMysql(kwargs)
+
+try:
+    sql_query = "select * from ershouche"
+    rows = sql.select(sql_query)
+    for row in rows:
+        cases = ','.join('%s' % r for r in row)
+        case = cases.split(',')
+
+        v_url = case[1]
+        v_biaoti = case[2]
+        biaoti = v_biaoti.split(' ', 1)
+        pinpai = biaoti[0]
+        chexi1 = biaoti[1]
+        chexi2 = chexi1.encode('utf8').split('款', 1)
+        chexi3 = chexi2[0]
+        chexi = chexi3[0:-4]
+        niankuan = chexi3[-4:]
+        banben = chexi2[1]
+
+        v_bianhao = case[3]
+        v_jiage = case[4]
+        v_jiage2 = case[5]
+        if v_jiage != '':
+            jiage_r = v_jiage
+        else:
+            jiage_r = v_jiage2
+        jiage_r2 = jiage_r.encode('utf8').replace('￥','')
+        jiage = float(jiage_r2.replace('万',''))
+
+        v_yuanjia = case[6]
+        v_yuanjia2 = case[7]
+        if v_yuanjia != '':
+            yuanjia_r = v_yuanjia
+        else:
+            yuanjia_r = v_yuanjia2
+        yuanjia_r2 = yuanjia_r.encode('utf8').replace('￥','')
+        yuanjia = float(yuanjia_r2.replace('万',''))
+
+        v_shangjiashijian = case[8]
+        v_shangpaishijian = case[9]
+        v_biaoxianlicheng = case[10]
+        if "万公里" in v_biaoxianlicheng.encode('utf8'):
+            biaoxianlicheng = int(float(v_biaoxianlicheng.encode('utf8').replace('万公里',''))*10000)
+        elif "公里" in v_biaoxianlicheng.encode('utf8'):
+            biaoxianlicheng = int(v_biaoxianlicheng.encode('utf8').replace('公里',''))
+
+        v_pailiang = case[11]
+        if "未知" or "-" in v_pailiang.encode('utf8'):
+            pailiang = int()
+        else:
+            pailiang = float(v_pailiang[0:-1])
+        jinqixingshi = v_pailiang[-1]
+        v_xiaoshouchengshi = case[12]
+
+        v_cheshenyanse = case[13]
+        v_gongxinbuyouhao = case[14]
+        if "未知" or "-" in v_gongxinbuyouhao.encode('utf8'):
+            gongxinbuyouhao = int()
+        else:
+            gongxinbuyouhao = float(v_gongxinbuyouhao.encode('utf8'))
+        v_qudongxingshi = case[15]
+        v_shengchanchangshang = case[16]
+        v_guohucishu = case[17]
+
+        v_shiyongxingzhi = case[18]
+        v_cheshenjiegou = case[19]
+        v_niankuandai = case[20]
+        v_zuoyishu = case[21]
+        v_zhengbeizhiliang = case[22]
+        if "未知" or "-" in v_zhengbeizhiliang.encode('utf8'):
+            zhengbeizhiliang = int()
+        else:
+            zhengbeizhiliang = int(v_zhengbeizhiliang.encode('utf8'))
+        v_zhouju = case[23]
+        v_zuidaniuju = case[24]
+        if "未知" or "-" in v_zuidaniuju.encode('utf8'):
+            zuidaniuju = int()
+        else:
+            zuidaniuju = int(v_zuidaniuju.encode('utf8'))
+        v_zuidagonglv = case[25]
+        if "未知" or "-" in v_zuidagonglv.encode('utf8'):
+            zuidagonglv = int()
+        else:
+            zuidagonglv = int(v_zuidagonglv.encode('utf8'))
+        v_zuidamali = case[26]
+        if "未知" or "-" in v_zuidamali.encode('utf8'):
+            zuidamali = int()
+        else:
+            zuidamali = int(v_zuidamali.encode('utf8'))
+        v_xingcheng = case[27]
+        if "未知" or "-" in v_xingcheng.encode('utf8'):
+            xingcheng = int()
+        else:
+            xingcheng = float(v_xingcheng.encode('utf8'))
+        v_fadongjixinghao = case[28]
+        v_INS_time = case[70]
+
+        values = {
+            'bianhao': v_bianhao,
+            'biaoti': v_biaoti,
+            'pinpai': pinpai,
+            'chexi': chexi,
+            'niankuan': niankuan,
+            'banben': banben,
+            'jiage': jiage,
+            'yuanjia': yuanjia,
+            'shangjiashijian': v_shangjiashijian,
+            'shangpaishijian': v_shangpaishijian,
+            'biaoxianlicheng': biaoxianlicheng,
+            'pailiang': pailiang,
+            'jinqixingshi': jinqixingshi,
+            'xiaoshouchengshi': v_xiaoshouchengshi,
+            'cheshenyanse': v_cheshenyanse,
+            'gongxinbuyouhao': gongxinbuyouhao,
+            'qudongxingshi': v_qudongxingshi,
+            'shengchanchangshang': v_shengchanchangshang,
+            'guohucishu': v_guohucishu,
+            'shiyongxingzhi': v_shiyongxingzhi,
+            'cheshenjiegou': v_cheshenjiegou,
+            'niankuandai': v_niankuandai,
+            'zuoyishu': v_zuoyishu,
+            'zhengbeizhiliang': zhengbeizhiliang,
+            'zhouju': v_zhouju,
+            'zuidaniuju': zuidaniuju,
+            'zuidagonglv': zuidagonglv,
+            'zuidamali': zuidamali,
+            'xingcheng': xingcheng,
+            'fadongjixinghao': v_fadongjixinghao
+
+        }
+        sql.into('che_ershou', **values)
+
+
+finally:
+    sql.cursor.close()
+    sql.conn.close()
+
+
