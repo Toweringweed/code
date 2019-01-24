@@ -28,6 +28,8 @@ def crawl_page(pici):
     for i in browser.find_elements_by_xpath('//li[@id="kesfqbfylb_A01_03_01"]/ul/li/a'):
         area_urls.append(i.get_attribute('href'))
 
+    area_urls = area_urls[0:10]
+    print(area_urls)
     print('-- start %s --' % time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time())))
     print('-- 抓取一级目录链接数量：%s --' % len(area_urls))
     k = 1
@@ -60,6 +62,7 @@ def clean(obj):
 def jiexi(html, pici, k):
     print('-- 开始解析 --')
     title = html.xpath('//span[@class="tit_shop"]/text()')
+    print(title)
     urls = html.xpath('//h4/a/@href')
     uids = []
     for i in urls:
@@ -106,6 +109,6 @@ def jiexi(html, pici, k):
    
 
 if __name__ == "__main__":
-        for pici in range(10, 9999):
+        for pici in range(2, 9999):
             crawl_page(pici)
             time.sleep(random.uniform(60*60*24,60*60*30))
