@@ -20,22 +20,5 @@ model.fit(x_train, y_train, epochs=5)
 model.evaluate(x_test, y_test)
 
 
-# from tensorflow import keras
-# import numpy as np
-# import matplotlib.pyplot as plt
 
-# fm = keras.datasets.fashion_mnist
-# (trains_images, trains_labels), (test_images, test_labels) = fm.load_data()
-# class_names = ['T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat',
-#                'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot']
-
-# trains_images.shape
-
-# a = tf.constant([1.0, 2.0, 3.0, 4.0, 5.0, 6.0], shape=[2, 3], name='a')
-# b = tf.constant([1.0, 2.0, 3.0, 4.0, 5.0, 6.0], shape=[3, 2], name='b')
-# c = tf.matmul(a, b)
-#Creates a session with log_device_placement set to True.
-# sess = tf.Session(config=tf.ConfigProto(log_device_placement=True))
-# #Runs the op.
-# sess.run(c)
 

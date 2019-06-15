@@ -1,0 +1,4199 @@
+[
+  {
+    "col_name": "card_overdue_highest",
+    "split_box": [
+      0,
+      5,
+      10,
+      10,
+      30
+    ]
+  },
+  {
+    "col_name": "loan_overdue_highest",
+    "split_box": [
+      0,
+      3,
+      8,
+      15,
+      26,
+      50
+    ]
+  },
+  {
+    "col_name": "cus_age",
+    "split_box": [
+      25,
+      30,
+      34,
+      40,
+      45,
+      50
+    ]
+  },
+  {
+    "col_name": "apply_amount",
+    "split_box": [
+      45000,
+      50000,
+      60000,
+      70000,
+      90000,
+      100000,
+      140000,
+      150000
+    ]
+  },
+  {
+    "col_name": "start_residence_duration",
+    "split_box": [
+      1,
+      2,
+      4,
+      8,
+      15,
+      30,
+      40
+    ]
+  },
+  {
+    "col_name": "rent_monthly_pay",
+    "split_box": [
+      0,
+      500,
+      800
+    ]
+  },
+  {
+    "col_name": "salary_monthly",
+    "split_box": [
+      4400,
+      5100,
+      6500,
+      8400,
+      9000,
+      14000,
+      25000,
+      40000,
+      150000
+    ]
+  },
+  {
+    "col_name": "othter_income_monthly",
+    "split_box": [
+      1800,
+      3000,
+      4000,
+      4600,
+      8600,
+      20000,
+      42000,
+      65000,
+      100000
+    ]
+  },
+  {
+    "col_name": "start_work_duration",
+    "split_box": [
+      1,
+      2,
+      3,
+      5,
+      7,
+      11,
+      15,
+      20,
+      30
+    ]
+  },
+  {
+    "col_name": "ss_continuous_months",
+    "split_box": [
+      0,
+      12,
+      24,
+      46
+    ]
+  },
+  {
+    "col_name": "ss_amount",
+    "split_box": [
+      0,
+      3.7,
+      9
+    ]
+  },
+  {
+    "col_name": "fund_continuous_months",
+    "split_box": [
+      0,
+      6,
+      23,
+      31,
+      51
+    ]
+  },
+  {
+    "col_name": "fund_amount",
+    "split_box": [
+      0,
+      7000,
+      21000,
+      39000,
+      62000
+    ]
+  },
+  {
+    "col_name": "basic_income_monthly",
+    "split_box": [
+      4400,
+      5100,
+      6500,
+      8400,
+      9000,
+      14000,
+      25000,
+      40000,
+      150000
+    ]
+  },
+  {
+    "col_name": "other_income",
+    "split_box": [
+      1800,
+      3000,
+      4000,
+      4600,
+      8600,
+      20000,
+      42000,
+      65000,
+      100000
+    ]
+  },
+  {
+    "col_name": "total_amount_monthly",
+    "split_box": [
+      6400,
+      9000,
+      14000,
+      18000,
+      24000,
+      30000,
+      37000,
+      60000,
+      110000
+    ]
+  },
+  {
+    "col_name": "verified_income",
+    "split_box": [
+      9100,
+      14000,
+      24000,
+      39000,
+      56000,
+      74000,
+      110000,
+      140000,
+      320000
+    ]
+  },
+  {
+    "col_name": "tcapi",
+    "split_box": [
+      25000,
+      30000,
+      35000,
+      40000,
+      45000,
+      50000,
+      55000
+    ]
+  },
+  {
+    "col_name": "signtotalamt",
+    "split_box": [
+      40000,
+      51000,
+      56000,
+      56000,
+      62000,
+      64000,
+      70000,
+      72000,
+      84000
+    ]
+  },
+  {
+    "col_name": "interate",
+    "split_box": [
+      12.6,
+      12.96,
+      13.26,
+      13.36,
+      13.86,
+      14.16
+    ]
+  },
+  {
+    "col_name": "liushui_finall",
+    "split_box": [
+      3000,
+      5000,
+      8000,
+      10000,
+      15000
+    ]
+  },
+  {
+    "col_name": "liushui_cv",
+    "split_box": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      75,
+      100
+    ]
+  },
+  {
+    "col_name": "card_account",
+    "split_box": [
+      0,
+      3,
+      6,
+      11,
+      13,
+      20
+    ]
+  },
+  {
+    "col_name": "card_notsettled",
+    "split_box": [
+      0,
+      1,
+      3,
+      5,
+      8,
+      13,
+      17,
+      21
+    ]
+  },
+  {
+    "col_name": "card_overdue",
+    "split_box": [
+      0,
+      2,
+      3,
+      5,
+      7
+    ]
+  },
+  {
+    "col_name": "card_90overdue",
+    "split_box": [
+      0
+    ]
+  },
+  {
+    "col_name": "card_guaranty",
+    "split_box": [
+      0
+    ]
+  },
+  {
+    "col_name": "housing_loan_account",
+    "split_box": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "col_name": "housing_loan_notsettled",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "housing_loan_overdue",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "housing_loan_90overdue",
+    "split_box": [
+      0
+    ]
+  },
+  {
+    "col_name": "housing_loan_guaranty",
+    "split_box": [
+      0
+    ]
+  },
+  {
+    "col_name": "other_loan_account",
+    "split_box": [
+      0,
+      11,
+      15,
+      22,
+      31,
+      50
+    ]
+  },
+  {
+    "col_name": "other_loan_notsettled",
+    "split_box": [
+      0,
+      3,
+      9,
+      11
+    ]
+  },
+  {
+    "col_name": "other_loan_overdue",
+    "split_box": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "col_name": "other_loan_90overdue",
+    "split_box": [
+      0
+    ]
+  },
+  {
+    "col_name": "other_loan_guaranty",
+    "split_box": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "col_name": "card_count_only_rmb",
+    "split_box": [
+      0,
+      1,
+      2,
+      5,
+      8,
+      10,
+      12
+    ]
+  },
+  {
+    "col_name": "card_count_card_notsettled",
+    "split_box": [
+      0,
+      1,
+      2,
+      5,
+      8,
+      10,
+      12
+    ]
+  },
+  {
+    "col_name": "card_credit_history",
+    "split_box": [
+      6,
+      12,
+      24,
+      36,
+      48,
+      60,
+      120,
+      180
+    ]
+  },
+  {
+    "col_name": "card_credit_history_normal",
+    "split_box": [
+      6,
+      12,
+      24,
+      36,
+      48,
+      60,
+      120,
+      180
+    ]
+  },
+  {
+    "col_name": "card_credit_history_unactivate",
+    "split_box": [
+      6,
+      12,
+      24,
+      36,
+      48,
+      60,
+      120,
+      180
+    ]
+  },
+  {
+    "col_name": "card_award_first",
+    "split_box": [
+      4000,
+      8000,
+      12000,
+      17000,
+      25000,
+      35000,
+      50000,
+      75000
+    ]
+  },
+  {
+    "col_name": "card_award_first_normal",
+    "split_box": [
+      4000,
+      8000,
+      12000,
+      17000,
+      25000,
+      35000,
+      50000,
+      75000
+    ]
+  },
+  {
+    "col_name": "card_award_first_unactivate",
+    "split_box": [
+      4000,
+      8000,
+      12000,
+      17000,
+      25000,
+      35000,
+      50000,
+      75000
+    ]
+  },
+  {
+    "col_name": "card_award_new",
+    "split_box": [
+      4000,
+      8000,
+      12000,
+      17000,
+      25000,
+      35000,
+      50000,
+      75000,
+      100000
+    ]
+  },
+  {
+    "col_name": "card_award_highest",
+    "split_box": [
+      5000,
+      10000,
+      20000,
+      30000,
+      45000,
+      75000,
+      100000,
+      150000,
+      200000
+    ]
+  },
+  {
+    "col_name": "card_award_highest_goodbank",
+    "split_box": [
+      4000,
+      8000,
+      12000,
+      17000,
+      25000,
+      35000,
+      50000,
+      75000,
+      100000
+    ]
+  },
+  {
+    "col_name": "card_award_used_highest",
+    "split_box": [
+      5000,
+      8000,
+      10000,
+      15000,
+      20000,
+      30000,
+      50000,
+      80000,
+      100000,
+      130000
+    ]
+  },
+  {
+    "col_name": "card_award_ratio_highest",
+    "split_box": [
+      0.05,
+      0.16,
+      0.39,
+      0.54,
+      0.63,
+      0.91
+    ]
+  },
+  {
+    "col_name": "card_award_sum",
+    "split_box": [
+      10000,
+      20000,
+      40000,
+      60000,
+      80000,
+      110000,
+      140000,
+      200000,
+      300000
+    ]
+  },
+  {
+    "col_name": "card_award_used",
+    "split_box": [
+      10000,
+      20000,
+      40000,
+      60000,
+      80000,
+      110000,
+      140000,
+      200000,
+      300000
+    ]
+  },
+  {
+    "col_name": "card_award_used_ratio",
+    "split_box": [
+      0,
+      0.15,
+      0.4,
+      0.6,
+      0.8,
+      1
+    ]
+  },
+  {
+    "col_name": "card_exceeding_count_",
+    "split_box": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "col_name": "card_exceeding_count_ratio",
+    "split_box": [
+      0,
+      0.1,
+      0.3,
+      0.5
+    ]
+  },
+  {
+    "col_name": "card_exceeding_money_sum",
+    "split_box": [
+      0,
+      3000,
+      7800,
+      12000
+    ]
+  },
+  {
+    "col_name": "card_exceeding_money_max",
+    "split_box": [
+      0,
+      4000,
+      9700,
+      15000
+    ]
+  },
+  {
+    "col_name": "card_exceeding_money_avg",
+    "split_box": [
+      0,
+      9.5
+    ]
+  },
+  {
+    "col_name": "card_overdue_count",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "card_overdue_money_sum",
+    "split_box": [
+      0,
+      82
+    ]
+  },
+  {
+    "col_name": "card_overdue_money_avg",
+    "split_box": [
+      0,
+      0.2
+    ]
+  },
+  {
+    "col_name": "card_overdue_money_max",
+    "split_box": [
+      0,
+      82
+    ]
+  },
+  {
+    "col_name": "card_overdue_months_in_5y",
+    "split_box": [
+      0,
+      4,
+      7,
+      13,
+      16,
+      20,
+      31
+    ]
+  },
+  {
+    "col_name": "card_overdue_months_in_2y",
+    "split_box": [
+      0,
+      1,
+      2,
+      5
+    ]
+  },
+  {
+    "col_name": "card_overdue_over90_in_5y",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "card_overdue_over90_in_2y",
+    "split_box": [
+      0
+    ]
+  },
+  {
+    "col_name": "card_overdue_ratio",
+    "split_box": [
+      0,
+      0.01,
+      0.05,
+      0.06,
+      0.1,
+      0.16,
+      0.34
+    ]
+  },
+  {
+    "col_name": "card_overdue_0_10",
+    "split_box": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "col_name": "card_overdue_10",
+    "split_box": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "col_name": "card_overdue_20",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "card_overdue_30",
+    "split_box": [
+      0
+    ]
+  },
+  {
+    "col_name": "card_overdue_10_20",
+    "split_box": null
+  },
+  {
+    "col_name": "card_overdue_20_30",
+    "split_box": null
+  },
+  {
+    "col_name": "card_overdue_10_extend_1y",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "card_overdue_20_extend_1y",
+    "split_box": [
+      0
+    ]
+  },
+  {
+    "col_name": "card_overdue_30_extend_1y",
+    "split_box": [
+      0
+    ]
+  },
+  {
+    "col_name": "card_overdue_0_10_extend_1y",
+    "split_box": null
+  },
+  {
+    "col_name": "card_overdue_10_20_extend_1y",
+    "split_box": null
+  },
+  {
+    "col_name": "card_overdue_20_30_extend_1y",
+    "split_box": null
+  },
+  {
+    "col_name": "card_overdue_10_extend_2y",
+    "split_box": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "col_name": "card_overdue_20_extend_2y",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "card_overdue_30_extend_2y",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "card_overdue_0_10_extend_2y",
+    "split_box": null
+  },
+  {
+    "col_name": "card_overdue_10_20_extend_2y",
+    "split_box": null
+  },
+  {
+    "col_name": "card_overdue_20_30_extend_2y",
+    "split_box": null
+  },
+  {
+    "col_name": "card_overdue_10_extend_3y",
+    "split_box": null
+  },
+  {
+    "col_name": "card_overdue_20_extend_3y",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "card_overdue_30_extend_3y",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "card_overdue_0_10_extend_3y",
+    "split_box": null
+  },
+  {
+    "col_name": "card_overdue_10_20_extend_3y",
+    "split_box": null
+  },
+  {
+    "col_name": "card_overdue_20_30_extend_3y",
+    "split_box": null
+  },
+  {
+    "col_name": "credit_less_100",
+    "split_box": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "col_name": "loan_total_account",
+    "split_box": [
+      0,
+      1,
+      3,
+      12,
+      17,
+      29
+    ]
+  },
+  {
+    "col_name": "loan_notsettled_account",
+    "split_box": [
+      0,
+      1,
+      4,
+      7,
+      9,
+      11,
+      17
+    ]
+  },
+  {
+    "col_name": "loan_settle_account",
+    "split_box": [
+      0,
+      2,
+      4,
+      8,
+      12,
+      15
+    ]
+  },
+  {
+    "col_name": "loan_settle_past3m",
+    "split_box": [
+      0,
+      2,
+      4
+    ]
+  },
+  {
+    "col_name": "loan_settle_past1m",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "loan_settle_next1m",
+    "split_box": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "col_name": "loan_settle_next3m",
+    "split_box": [
+      0,
+      2,
+      3,
+      7,
+      8,
+      9,
+      10,
+      11,
+      13
+    ]
+  },
+  {
+    "col_name": "loan_settle_next6m",
+    "split_box": [
+      0,
+      3,
+      4,
+      8
+    ]
+  },
+  {
+    "col_name": "loan_settle_next12m",
+    "split_box": [
+      0,
+      3,
+      5,
+      6,
+      13
+    ]
+  },
+  {
+    "col_name": "loan_award_past3m",
+    "split_box": [
+      0,
+      20000,
+      40000,
+      70000,
+      100000,
+      150000,
+      200000
+    ]
+  },
+  {
+    "col_name": "loan_award_past1m",
+    "split_box": [
+      0,
+      2000,
+      8000,
+      16000,
+      22000,
+      28000,
+      36000
+    ]
+  },
+  {
+    "col_name": "loan_award_next1m",
+    "split_box": [
+      0,
+      600,
+      2100,
+      3900
+    ]
+  },
+  {
+    "col_name": "loan_award_next3m",
+    "split_box": [
+      2100,
+      5000,
+      9900,
+      20000,
+      59000
+    ]
+  },
+  {
+    "col_name": "loan_award_next6m",
+    "split_box": [
+      5800,
+      14000,
+      19000,
+      26000,
+      35000,
+      67000,
+      92000,
+      120000,
+      210000
+    ]
+  },
+  {
+    "col_name": "loan_award_next12m",
+    "split_box": [
+      3000,
+      23000,
+      41000,
+      53000,
+      76000,
+      100000,
+      150000,
+      250000,
+      470000
+    ]
+  },
+  {
+    "col_name": "loan_moneymonthly_next3m",
+    "split_box": [
+      0,
+      1600,
+      3300,
+      6300,
+      14000,
+      24000
+    ]
+  },
+  {
+    "col_name": "loan_moneymonthly_next6m",
+    "split_box": [
+      2800,
+      4900,
+      9200,
+      20000,
+      29000,
+      61000
+    ]
+  },
+  {
+    "col_name": "loan_moneymonthly_next12m",
+    "split_box": [
+      100,
+      2900,
+      8700,
+      13000,
+      21000
+    ]
+  },
+  {
+    "col_name": "loan_count_bank",
+    "split_box": [
+      0,
+      1,
+      3,
+      7,
+      11
+    ]
+  },
+  {
+    "col_name": "loan_count_bank_country_stock",
+    "split_box": [
+      0,
+      1,
+      3,
+      5,
+      9
+    ]
+  },
+  {
+    "col_name": "loan_count_bank_commerce",
+    "split_box": [
+      0,
+      2,
+      6
+    ]
+  },
+  {
+    "col_name": "loan_count_bank_village",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "loan_ratio_bank_rcu_commerce",
+    "split_box": [
+      0,
+      0.15,
+      0.3,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "col_name": "loan_count_bank_foreign",
+    "split_box": [
+      0
+    ]
+  },
+  {
+    "col_name": "loan_count_mcc",
+    "split_box": [
+      0,
+      2,
+      3,
+      5
+    ]
+  },
+  {
+    "col_name": "loan_ratio_mcc",
+    "split_box": [
+      0,
+      0.05,
+      0.1,
+      0.14,
+      0.26,
+      0.32,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "col_name": "loan_count_cfc",
+    "split_box": [
+      0,
+      1,
+      5,
+      16
+    ]
+  },
+  {
+    "col_name": "loan_ratio_cfc",
+    "split_box": [
+      0,
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.75
+    ]
+  },
+  {
+    "col_name": "loan_count_trust",
+    "split_box": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "col_name": "loan_count_afc",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "loan_count_weixin",
+    "split_box": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "col_name": "loan_ratio_weixin",
+    "split_box": [
+      0,
+      0.05,
+      0.1,
+      0.2,
+      0.3,
+      0.5
+    ]
+  },
+  {
+    "col_name": "loan_count_mayi",
+    "split_box": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "col_name": "loan_history_weixin",
+    "split_box": [
+      0,
+      3,
+      6,
+      9
+    ]
+  },
+  {
+    "col_name": "loan_award_weixin_last",
+    "split_box": [
+      0,
+      5000,
+      10000,
+      20000,
+      30000,
+      50000
+    ]
+  },
+  {
+    "col_name": "loan_history_mayi",
+    "split_box": [
+      0
+    ]
+  },
+  {
+    "col_name": "loan_award_mayi_last",
+    "split_box": [
+      0,
+      900,
+      8000
+    ]
+  },
+  {
+    "col_name": "loan_count_check",
+    "split_box": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "col_name": "loan_count_house",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "loan_ratio_house",
+    "split_box": [
+      0.02,
+      0.05,
+      0.11,
+      0.4,
+      0.8
+    ]
+  },
+  {
+    "col_name": "loan_award_house",
+    "split_box": [
+      90000,
+      140000,
+      190000,
+      270000,
+      340000,
+      460000,
+      640000,
+      990000,
+      1410000
+    ]
+  },
+  {
+    "col_name": "loan_award_house_avg",
+    "split_box": [
+      97000,
+      150000,
+      200000,
+      270000,
+      400000,
+      530000,
+      850000
+    ]
+  },
+  {
+    "col_name": "loan_count_afl",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "loan_ratio_afl",
+    "split_box": [
+      0.05,
+      0.1,
+      0.2
+    ]
+  },
+  {
+    "col_name": "loan_award_afl",
+    "split_box": [
+      0,
+      350000,
+      500000
+    ]
+  },
+  {
+    "col_name": "loan_award_afl_avg",
+    "split_box": [
+      0,
+      9000
+    ]
+  },
+  {
+    "col_name": "loan_count_consume",
+    "split_box": [
+      0,
+      8,
+      11,
+      16,
+      24
+    ]
+  },
+  {
+    "col_name": "loan_ratio_consume",
+    "split_box": [
+      0,
+      0.1,
+      0.2,
+      0.35000000000000003,
+      0.5,
+      0.65,
+      0.8
+    ]
+  },
+  {
+    "col_name": "loan_award_consume",
+    "split_box": [
+      15000,
+      26000,
+      57000,
+      79000,
+      110000,
+      150000,
+      190000,
+      290000,
+      470000
+    ]
+  },
+  {
+    "col_name": "loan_award_consume_avg",
+    "split_box": [
+      10000,
+      19000,
+      32000,
+      46000,
+      57000,
+      65000,
+      87000,
+      110000,
+      140000
+    ]
+  },
+  {
+    "col_name": "loan_count_operate",
+    "split_box": [
+      0,
+      4,
+      10
+    ]
+  },
+  {
+    "col_name": "loan_ratio_operate",
+    "split_box": [
+      0,
+      0.13,
+      0.19,
+      0.24,
+      0.35000000000000003,
+      0.44,
+      0.54,
+      0.79
+    ]
+  },
+  {
+    "col_name": "loan_award_operate",
+    "split_box": [
+      0,
+      15000,
+      29000,
+      72000,
+      140000,
+      230000,
+      500000,
+      840000
+    ]
+  },
+  {
+    "col_name": "loan_award_operate_avg",
+    "split_box": [
+      0,
+      10000,
+      20000,
+      40000,
+      80000,
+      120000
+    ]
+  },
+  {
+    "col_name": "loan_count_peasant",
+    "split_box": [
+      0,
+      1,
+      2,
+      5,
+      9
+    ]
+  },
+  {
+    "col_name": "loan_ratio_peasant",
+    "split_box": [
+      0,
+      0.05,
+      0.15,
+      0.3,
+      0.56
+    ]
+  },
+  {
+    "col_name": "loan_award_peasant",
+    "split_box": [
+      0,
+      9000,
+      26000,
+      58000,
+      99000,
+      240000
+    ]
+  },
+  {
+    "col_name": "loan_award_peasant_avg",
+    "split_box": [
+      0,
+      15000,
+      33000,
+      51000
+    ]
+  },
+  {
+    "col_name": "loan_count_car",
+    "split_box": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "col_name": "loan_ratio_car",
+    "split_box": [
+      0,
+      0.07,
+      0.11,
+      0.2,
+      0.4
+    ]
+  },
+  {
+    "col_name": "loan_award_car",
+    "split_box": [
+      0,
+      38000,
+      51000,
+      83000,
+      120000,
+      190000
+    ]
+  },
+  {
+    "col_name": "loan_award_car_avg",
+    "split_box": [
+      0,
+      50000,
+      80000,
+      100000,
+      130000
+    ]
+  },
+  {
+    "col_name": "loan_overdue_month_5y",
+    "split_box": [
+      0,
+      2,
+      4,
+      6,
+      13
+    ]
+  },
+  {
+    "col_name": "loan_90overdue_2y",
+    "split_box": [
+      0
+    ]
+  },
+  {
+    "col_name": "loan_house_overdue_month_5y",
+    "split_box": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "col_name": "loan_house_overdue_month_2y",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "loan_house_90overdue_5y",
+    "split_box": [
+      0
+    ]
+  },
+  {
+    "col_name": "loan_house_90overdue_2y",
+    "split_box": [
+      0
+    ]
+  },
+  {
+    "col_name": "loan_overdue_month_2y",
+    "split_box": [
+      0,
+      1,
+      2,
+      4,
+      6
+    ]
+  },
+  {
+    "col_name": "loan_90overdue_5y",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "loan_overdue_house",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "loan_overdue_ratio_0_10",
+    "split_box": null
+  },
+  {
+    "col_name": "loan_overdue_ratio_10",
+    "split_box": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "col_name": "credit_first",
+    "split_box": [
+      6,
+      12,
+      24,
+      36,
+      60,
+      84,
+      120,
+      180
+    ]
+  },
+  {
+    "col_name": "loan_overdue_ratio_20",
+    "split_box": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "col_name": "loan_overdue_ratio_30",
+    "split_box": [
+      0
+    ]
+  },
+  {
+    "col_name": "loan_overdue_ratio_10_20",
+    "split_box": null
+  },
+  {
+    "col_name": "loan_overdue_ratio_20_30",
+    "split_box": [
+      0
+    ]
+  },
+  {
+    "col_name": "loan_overdue_10_extend_1y",
+    "split_box": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "col_name": "loan_overdue_20_extend_1y",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "loan_overdue_30_extend_1y",
+    "split_box": [
+      0
+    ]
+  },
+  {
+    "col_name": "loan_overdue_0_10_extend_1y",
+    "split_box": null
+  },
+  {
+    "col_name": "loan_overdue_10_20_extend_1y",
+    "split_box": null
+  },
+  {
+    "col_name": "loan_overdue_20_30_extend_1y",
+    "split_box": null
+  },
+  {
+    "col_name": "loan_overdue_10_extend_2y",
+    "split_box": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "col_name": "loan_overdue_20_extend_2y",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "loan_overdue_30_extend_2y",
+    "split_box": [
+      0
+    ]
+  },
+  {
+    "col_name": "loan_overdue_0_10_extend_2y",
+    "split_box": null
+  },
+  {
+    "col_name": "loan_overdue_10_20_extend_2y",
+    "split_box": null
+  },
+  {
+    "col_name": "loan_overdue_20_30_extend_2y",
+    "split_box": [
+      0
+    ]
+  },
+  {
+    "col_name": "loan_overdue_10_extend_3y",
+    "split_box": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "col_name": "loan_overdue_20_extend_3y",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "loan_overdue_30_extend_3y",
+    "split_box": [
+      0
+    ]
+  },
+  {
+    "col_name": "loan_overdue_0_10_extend_3y",
+    "split_box": null
+  },
+  {
+    "col_name": "loan_overdue_10_20_extend_3y",
+    "split_box": null
+  },
+  {
+    "col_name": "loan_overdue_20_30_extend_3y",
+    "split_box": null
+  },
+  {
+    "col_name": "loan_count_normal",
+    "split_box": [
+      1,
+      5,
+      8,
+      13,
+      17
+    ]
+  },
+  {
+    "col_name": "loan_ratio_normal",
+    "split_box": [
+      0.04,
+      0.12,
+      0.27,
+      0.37,
+      0.48,
+      0.5700000000000001,
+      0.64,
+      0.8,
+      0.9500000000000001
+    ]
+  },
+  {
+    "col_name": "loan_count_settle",
+    "split_box": [
+      0,
+      3,
+      4,
+      8,
+      11,
+      15,
+      32
+    ]
+  },
+  {
+    "col_name": "loan_ratio_settle",
+    "split_box": [
+      0,
+      0.15,
+      0.25,
+      0.35000000000000003,
+      0.45,
+      0.6,
+      0.8
+    ]
+  },
+  {
+    "col_name": "loan_count_overdue",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "loan_count_out",
+    "split_box": [
+      0
+    ]
+  },
+  {
+    "col_name": "loan_house_repaymonth",
+    "split_box": [
+      0,
+      6,
+      12,
+      36,
+      60,
+      96
+    ]
+  },
+  {
+    "col_name": "loan_house_moneymonthly",
+    "split_box": [
+      0,
+      1100,
+      1600,
+      3600,
+      5500
+    ]
+  },
+  {
+    "col_name": "loan_other_moneymonthly",
+    "split_box": [
+      3500,
+      8100,
+      15000,
+      19000,
+      26000,
+      33000,
+      45000,
+      59000,
+      77000
+    ]
+  },
+  {
+    "col_name": "loan_moneymonthly",
+    "split_box": [
+      1500,
+      7200,
+      18000,
+      23000,
+      30000,
+      38000
+    ]
+  },
+  {
+    "col_name": "loan_moneymonthly_notmortgage",
+    "split_box": [
+      5300,
+      13000,
+      27000,
+      36000,
+      42000,
+      54000,
+      67000,
+      93000,
+      130000
+    ]
+  },
+  {
+    "col_name": "loan_award_total",
+    "split_box": [
+      65000,
+      110000,
+      180000,
+      240000,
+      350000,
+      460000,
+      610000,
+      740000,
+      1360000
+    ]
+  },
+  {
+    "col_name": "loan_balance",
+    "split_box": [
+      24000,
+      52000,
+      96000,
+      150000,
+      230000,
+      370000,
+      450000,
+      580000,
+      890000
+    ]
+  },
+  {
+    "col_name": "loan_overdue_account",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "loan_award_overdue",
+    "split_box": [
+      0,
+      25
+    ]
+  },
+  {
+    "col_name": "loan_overdue_money",
+    "split_box": [
+      0,
+      3
+    ]
+  },
+  {
+    "col_name": "loan_money_1",
+    "split_box": [
+      0,
+      9,
+      16,
+      21
+    ]
+  },
+  {
+    "col_name": "loan_money_1_2",
+    "split_box": [
+      0,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "col_name": "loan_money_1_2_now",
+    "split_box": [
+      0,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "col_name": "loan_money_2_10",
+    "split_box": [
+      0,
+      1,
+      2,
+      4,
+      6,
+      8
+    ]
+  },
+  {
+    "col_name": "loan_money_10_20",
+    "split_box": [
+      0,
+      1,
+      2,
+      3,
+      6
+    ]
+  },
+  {
+    "col_name": "loan_money_20_50",
+    "split_box": [
+      0,
+      2,
+      4
+    ]
+  },
+  {
+    "col_name": "loan_money_50_100",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "loan_money_100_200",
+    "split_box": [
+      0
+    ]
+  },
+  {
+    "col_name": "loan_money_200",
+    "split_box": [
+      0
+    ]
+  },
+  {
+    "col_name": "loan_refuse_bank_3m",
+    "split_box": [
+      0,
+      3,
+      8,
+      11,
+      17
+    ]
+  },
+  {
+    "col_name": "loan_refuse_fing_3m",
+    "split_box": [
+      0,
+      1,
+      3,
+      7
+    ]
+  },
+  {
+    "col_name": "loan_refuse_trust_3m",
+    "split_box": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "col_name": "current_period",
+    "split_box": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "col_name": "percentage_shares",
+    "split_box": [
+      0.15,
+      0.25,
+      0.5,
+      0.55,
+      0.61,
+      0.72,
+      0.76,
+      0.9,
+      0.99
+    ]
+  },
+  {
+    "col_name": "loan_ratio_bank",
+    "split_box": [
+      0,
+      0.1,
+      0.22,
+      0.35000000000000003,
+      0.44,
+      0.55,
+      0.65,
+      0.86,
+      0.99
+    ]
+  },
+  {
+    "col_name": "loan_ratio_bank_country_stock",
+    "split_box": [
+      0,
+      0.05,
+      0.14,
+      0.17,
+      0.25,
+      0.41000000000000003,
+      0.61,
+      0.77,
+      0.9
+    ]
+  },
+  {
+    "col_name": "loan_ratio_bank_commerce",
+    "split_box": [
+      0.1,
+      0.3,
+      0.5
+    ]
+  },
+  {
+    "col_name": "loan_ratio_trust",
+    "split_box": [
+      0,
+      0.06,
+      0.09,
+      0.25,
+      0.33
+    ]
+  },
+  {
+    "col_name": "loan_ratio_mayi",
+    "split_box": [
+      0,
+      0.06,
+      0.2,
+      0.35000000000000003
+    ]
+  },
+  {
+    "col_name": "loan_ratio_check",
+    "split_box": [
+      0,
+      0.05,
+      0.1,
+      0.15,
+      0.36,
+      0.46
+    ]
+  },
+  {
+    "col_name": "loan_ratio_overdue",
+    "split_box": [
+      0,
+      0.1,
+      0.3
+    ]
+  },
+  {
+    "col_name": "debt_ratio1",
+    "split_box": [
+      20,
+      50,
+      80,
+      100,
+      150,
+      200,
+      400
+    ]
+  },
+  {
+    "col_name": "debt_ratio2",
+    "split_box": [
+      20,
+      50,
+      80,
+      100,
+      150,
+      200,
+      400
+    ]
+  },
+  {
+    "col_name": "clr1",
+    "split_box": [
+      0,
+      9,
+      18,
+      35,
+      47,
+      69,
+      85,
+      124
+    ]
+  },
+  {
+    "col_name": "clr2",
+    "split_box": [
+      0,
+      10,
+      25,
+      46,
+      61,
+      70,
+      92,
+      110
+    ]
+  },
+  {
+    "col_name": "credit_org_1m",
+    "split_box": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10
+    ]
+  },
+  {
+    "col_name": "credit_org_24m",
+    "split_box": [
+      10,
+      16,
+      29,
+      30,
+      49
+    ]
+  },
+  {
+    "col_name": "credit_pers_3m",
+    "split_box": [
+      0,
+      2,
+      4,
+      6,
+      8
+    ]
+  },
+  {
+    "col_name": "credit_pers_12m",
+    "split_box": [
+      12,
+      16,
+      19,
+      24
+    ]
+  },
+  {
+    "col_name": "credit_pers_24m",
+    "split_box": [
+      5,
+      11,
+      18,
+      25
+    ]
+  },
+  {
+    "col_name": "credit_org_1m_notplm",
+    "split_box": [
+      0,
+      1,
+      4,
+      7,
+      10
+    ]
+  },
+  {
+    "col_name": "credit_org_3m_notplm",
+    "split_box": [
+      4,
+      9,
+      13,
+      17
+    ]
+  },
+  {
+    "col_name": "credit_org_6m_notplm",
+    "split_box": [
+      0,
+      3,
+      6,
+      10,
+      15,
+      20,
+      30
+    ]
+  },
+  {
+    "col_name": "credit_org_12m_notplm",
+    "split_box": [
+      5,
+      10,
+      15,
+      25,
+      35
+    ]
+  },
+  {
+    "col_name": "credit_org_24m_notplm",
+    "split_box": [
+      9,
+      18,
+      27,
+      37,
+      41
+    ]
+  },
+  {
+    "col_name": "credit_card_1m",
+    "split_box": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "col_name": "credit_plm_1m",
+    "split_box": [
+      0,
+      1,
+      2,
+      4,
+      6
+    ]
+  },
+  {
+    "col_name": "credit_qualified_1m",
+    "split_box": [
+      0
+    ]
+  },
+  {
+    "col_name": "credit_presafe_1m",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "credit_pgmgmt_1m",
+    "split_box": [
+      0
+    ]
+  },
+  {
+    "col_name": "credit_admit_1m",
+    "split_box": [
+      0
+    ]
+  },
+  {
+    "col_name": "credit_guarantee_1m",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "credit_loan_cfc_1m",
+    "split_box": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "col_name": "credit_loan_fing_1m",
+    "split_box": [
+      0
+    ]
+  },
+  {
+    "col_name": "credit_loan_trust_1m",
+    "split_box": [
+      0
+    ]
+  },
+  {
+    "col_name": "credit_loan_bank_3m",
+    "split_box": [
+      0,
+      1,
+      2,
+      3,
+      5
+    ]
+  },
+  {
+    "col_name": "credit_loan_mcc_3m",
+    "split_box": [
+      0,
+      1,
+      2,
+      4
+    ]
+  },
+  {
+    "col_name": "credit_loan_cfc_3m",
+    "split_box": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "col_name": "credit_loan_fing_3m",
+    "split_box": [
+      0
+    ]
+  },
+  {
+    "col_name": "credit_loan_trust_3m",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "credit_loan_other_3m",
+    "split_box": [
+      0,
+      2,
+      4,
+      6,
+      9
+    ]
+  },
+  {
+    "col_name": "loan_refuse_mcc_3m",
+    "split_box": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "col_name": "loan_refuse_other_3m",
+    "split_box": [
+      3,
+      8,
+      15,
+      19,
+      20
+    ]
+  },
+  {
+    "col_name": "credit_1m",
+    "split_box": [
+      2,
+      5,
+      8,
+      10
+    ]
+  },
+  {
+    "col_name": "credit_2m",
+    "split_box": [
+      3,
+      6,
+      8,
+      12,
+      16
+    ]
+  },
+  {
+    "col_name": "credit_3m",
+    "split_box": [
+      3,
+      6,
+      8,
+      12,
+      16,
+      20
+    ]
+  },
+  {
+    "col_name": "credit_6m",
+    "split_box": [
+      6,
+      12,
+      18,
+      24,
+      30,
+      40
+    ]
+  },
+  {
+    "col_name": "credit_12m",
+    "split_box": [
+      12,
+      24,
+      36,
+      48,
+      60
+    ]
+  },
+  {
+    "col_name": "credit_24m",
+    "split_box": [
+      12,
+      24,
+      36,
+      48,
+      60
+    ]
+  },
+  {
+    "col_name": "credit_org_2m",
+    "split_box": [
+      0,
+      3,
+      7,
+      8,
+      10,
+      14
+    ]
+  },
+  {
+    "col_name": "credit_org_3m",
+    "split_box": [
+      4,
+      7,
+      16,
+      17,
+      30
+    ]
+  },
+  {
+    "col_name": "credit_org_6m",
+    "split_box": [
+      10,
+      12,
+      13,
+      30,
+      36
+    ]
+  },
+  {
+    "col_name": "credit_org_12m",
+    "split_box": [
+      1,
+      8,
+      9,
+      36,
+      44
+    ]
+  },
+  {
+    "col_name": "credit_pers_1m",
+    "split_box": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "col_name": "credit_pers_2m",
+    "split_box": [
+      0,
+      1,
+      4,
+      6
+    ]
+  },
+  {
+    "col_name": "credit_pers_6m",
+    "split_box": [
+      0,
+      6,
+      10,
+      13
+    ]
+  },
+  {
+    "col_name": "credit_org_2m_notplm",
+    "split_box": [
+      3,
+      5,
+      10,
+      12,
+      15
+    ]
+  },
+  {
+    "col_name": "credit_loan_1m",
+    "split_box": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "col_name": "credit_loan_bank_1m",
+    "split_box": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "col_name": "credit_loan_mcc_1m",
+    "split_box": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "col_name": "credit_loan_other_1m",
+    "split_box": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "col_name": "loan_refuse_3m",
+    "split_box": [
+      0,
+      12,
+      22,
+      40,
+      61
+    ]
+  },
+  {
+    "col_name": "loan_refuse_cfc_3m",
+    "split_box": [
+      0,
+      1,
+      2,
+      3,
+      7
+    ]
+  },
+  {
+    "col_name": "credit_card_2m",
+    "split_box": [
+      0,
+      2,
+      4,
+      6
+    ]
+  },
+  {
+    "col_name": "credit_loan_2m",
+    "split_box": [
+      0,
+      1,
+      2,
+      4,
+      6,
+      8
+    ]
+  },
+  {
+    "col_name": "credit_plm_2m",
+    "split_box": [
+      0,
+      3,
+      4,
+      7
+    ]
+  },
+  {
+    "col_name": "credit_approve_2m",
+    "split_box": [
+      0
+    ]
+  },
+  {
+    "col_name": "credit_presafe_2m",
+    "split_box": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "col_name": "credit_pgmgmt_2m",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "credit_admit_2m",
+    "split_box": [
+      0
+    ]
+  },
+  {
+    "col_name": "credit_guarantee_2m",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "credit_card_3m",
+    "split_box": [
+      0,
+      2,
+      4,
+      6,
+      8
+    ]
+  },
+  {
+    "col_name": "credit_loan_3m",
+    "split_box": [
+      2,
+      4,
+      6,
+      9,
+      11
+    ]
+  },
+  {
+    "col_name": "credit_plm_3m",
+    "split_box": [
+      0,
+      3,
+      4,
+      5,
+      7
+    ]
+  },
+  {
+    "col_name": "credit_approve_3m",
+    "split_box": [
+      0
+    ]
+  },
+  {
+    "col_name": "credit_presafe_3m",
+    "split_box": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "col_name": "credit_pgmgmt_3m",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "credit_admit_3m",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "credit_guarantee_3m",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "credit_card_6m",
+    "split_box": [
+      0,
+      2,
+      5,
+      8,
+      11
+    ]
+  },
+  {
+    "col_name": "credit_loan_6m",
+    "split_box": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      12,
+      18
+    ]
+  },
+  {
+    "col_name": "credit_plm_6m",
+    "split_box": [
+      0,
+      6,
+      8,
+      9,
+      11
+    ]
+  },
+  {
+    "col_name": "credit_approve_6m",
+    "split_box": [
+      0
+    ]
+  },
+  {
+    "col_name": "credit_presafe_6m",
+    "split_box": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "col_name": "credit_pgmgmt_6m",
+    "split_box": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "col_name": "credit_admit_6m",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "credit_guarantee_6m",
+    "split_box": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "col_name": "credit_card_12m",
+    "split_box": [
+      10,
+      11,
+      15,
+      19,
+      26
+    ]
+  },
+  {
+    "col_name": "credit_loan_12m",
+    "split_box": [
+      1,
+      9,
+      12,
+      21,
+      28
+    ]
+  },
+  {
+    "col_name": "credit_plm_12m",
+    "split_box": [
+      0,
+      1,
+      12,
+      17,
+      21
+    ]
+  },
+  {
+    "col_name": "credit_approve_12m",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "credit_presafe_12m",
+    "split_box": [
+      0,
+      1,
+      2,
+      4,
+      5
+    ]
+  },
+  {
+    "col_name": "credit_pgmgmt_12m",
+    "split_box": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "col_name": "credit_admit_12m",
+    "split_box": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "col_name": "credit_guarantee_12m",
+    "split_box": [
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "col_name": "credit_card_24m",
+    "split_box": [
+      9,
+      13,
+      20,
+      21,
+      24
+    ]
+  },
+  {
+    "col_name": "credit_loan_24m",
+    "split_box": [
+      0,
+      1,
+      14,
+      16,
+      28
+    ]
+  },
+  {
+    "col_name": "credit_plm_24m",
+    "split_box": [
+      0,
+      1,
+      11,
+      22,
+      27
+    ]
+  },
+  {
+    "col_name": "credit_approve_24m",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "credit_presafe_24m",
+    "split_box": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "col_name": "credit_pgmgmt_24m",
+    "split_box": [
+      1,
+      2,
+      4,
+      6
+    ]
+  },
+  {
+    "col_name": "credit_admit_24m",
+    "split_box": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "col_name": "credit_guarantee_24m",
+    "split_box": [
+      0,
+      3,
+      5
+    ]
+  },
+  {
+    "col_name": "credit_bank_1m",
+    "split_box": [
+      1,
+      2,
+      6,
+      7
+    ]
+  },
+  {
+    "col_name": "credit_bank_country_stock_1m",
+    "split_box": [
+      0,
+      2,
+      3,
+      5,
+      6
+    ]
+  },
+  {
+    "col_name": "credit_bank_commerce_1m",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "credit_bank_village_1m",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "credit_bank_rcu_commerce_1m",
+    "split_box": [
+      1,
+      2,
+      4
+    ]
+  },
+  {
+    "col_name": "credit_bank_foreign_1m",
+    "split_box": null
+  },
+  {
+    "col_name": "credit_bank_mcc_1m",
+    "split_box": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "col_name": "credit_bank_cfc_1m",
+    "split_box": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "col_name": "credit_bank_trust_1m",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "credit_bank_insurer_1m",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "credit_bank_afc_1m",
+    "split_box": [
+      0
+    ]
+  },
+  {
+    "col_name": "credit_bank_check_1m",
+    "split_box": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "col_name": "credit_bank_2m",
+    "split_box": [
+      0,
+      2,
+      3,
+      6,
+      8
+    ]
+  },
+  {
+    "col_name": "credit_bank_country_stock_2m",
+    "split_box": [
+      0,
+      3,
+      6,
+      7
+    ]
+  },
+  {
+    "col_name": "credit_bank_commerce_2m",
+    "split_box": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "col_name": "credit_bank_village_2m",
+    "split_box": null
+  },
+  {
+    "col_name": "credit_bank_rcu_commerce_2m",
+    "split_box": [
+      1,
+      3,
+      4,
+      5,
+      8
+    ]
+  },
+  {
+    "col_name": "credit_bank_foreign_2m",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "credit_bank_mcc_2m",
+    "split_box": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "col_name": "credit_bank_cfc_2m",
+    "split_box": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "col_name": "credit_bank_trust_2m",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "credit_bank_insurer_2m",
+    "split_box": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "col_name": "credit_bank_afc_2m",
+    "split_box": [
+      0
+    ]
+  },
+  {
+    "col_name": "credit_bank_check_2m",
+    "split_box": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "col_name": "credit_bank_3m",
+    "split_box": [
+      2,
+      4,
+      5,
+      8
+    ]
+  },
+  {
+    "col_name": "credit_bank_country_stock_3m",
+    "split_box": [
+      5,
+      6,
+      9,
+      15
+    ]
+  },
+  {
+    "col_name": "credit_bank_commerce_3m",
+    "split_box": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "col_name": "credit_bank_village_3m",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "credit_bank_rcu_commerce_3m",
+    "split_box": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "col_name": "credit_bank_foreign_3m",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "credit_bank_mcc_3m",
+    "split_box": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "col_name": "credit_bank_cfc_3m",
+    "split_box": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "col_name": "credit_bank_trust_3m",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "credit_bank_insurer_3m",
+    "split_box": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "col_name": "credit_bank_afc_3m",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "credit_bank_check_3m",
+    "split_box": [
+      0,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "col_name": "credit_bank_6m",
+    "split_box": [
+      4,
+      11,
+      16,
+      17,
+      25
+    ]
+  },
+  {
+    "col_name": "credit_bank_country_stock_6m",
+    "split_box": [
+      4,
+      11,
+      14,
+      20,
+      28
+    ]
+  },
+  {
+    "col_name": "credit_bank_commerce_6m",
+    "split_box": [
+      1,
+      2,
+      3,
+      5
+    ]
+  },
+  {
+    "col_name": "credit_bank_village_6m",
+    "split_box": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "col_name": "credit_bank_rcu_commerce_6m",
+    "split_box": [
+      0,
+      1,
+      3,
+      5,
+      10
+    ]
+  },
+  {
+    "col_name": "credit_bank_foreign_6m",
+    "split_box": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "col_name": "credit_bank_mcc_6m",
+    "split_box": [
+      0,
+      3,
+      5,
+      6
+    ]
+  },
+  {
+    "col_name": "credit_bank_cfc_6m",
+    "split_box": [
+      0,
+      1,
+      2,
+      3,
+      5
+    ]
+  },
+  {
+    "col_name": "credit_bank_trust_6m",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "credit_bank_insurer_6m",
+    "split_box": [
+      0,
+      1,
+      2,
+      5
+    ]
+  },
+  {
+    "col_name": "credit_bank_afc_6m",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "credit_bank_check_6m",
+    "split_box": [
+      0,
+      3,
+      5,
+      12
+    ]
+  },
+  {
+    "col_name": "credit_bank_12m",
+    "split_box": [
+      4,
+      9,
+      23,
+      30,
+      37
+    ]
+  },
+  {
+    "col_name": "credit_bank_country_stock_12m",
+    "split_box": [
+      5,
+      6,
+      17,
+      31,
+      32
+    ]
+  },
+  {
+    "col_name": "credit_bank_commerce_12m",
+    "split_box": [
+      5,
+      6,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "col_name": "credit_bank_village_12m",
+    "split_box": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "col_name": "credit_bank_rcu_commerce_12m",
+    "split_box": [
+      2,
+      7,
+      16,
+      18,
+      27
+    ]
+  },
+  {
+    "col_name": "credit_bank_foreign_12m",
+    "split_box": [
+      0,
+      1,
+      2,
+      5
+    ]
+  },
+  {
+    "col_name": "credit_bank_mcc_12m",
+    "split_box": [
+      0,
+      2,
+      5,
+      9
+    ]
+  },
+  {
+    "col_name": "credit_bank_cfc_12m",
+    "split_box": [
+      0,
+      4,
+      9
+    ]
+  },
+  {
+    "col_name": "credit_bank_trust_12m",
+    "split_box": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "col_name": "credit_bank_insurer_12m",
+    "split_box": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      7
+    ]
+  },
+  {
+    "col_name": "credit_bank_afc_12m",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "credit_bank_check_12m",
+    "split_box": [
+      3,
+      4,
+      8,
+      9,
+      15
+    ]
+  },
+  {
+    "col_name": "credit_self_1m",
+    "split_box": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "col_name": "credit_internet_1m",
+    "split_box": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "col_name": "credit_self_2m",
+    "split_box": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "col_name": "credit_internet_2m",
+    "split_box": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "col_name": "credit_self_3m",
+    "split_box": [
+      0,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "col_name": "credit_internet_3m",
+    "split_box": [
+      0,
+      1,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "col_name": "credit_self_6m",
+    "split_box": [
+      0,
+      3,
+      6
+    ]
+  },
+  {
+    "col_name": "credit_internet_6m",
+    "split_box": [
+      0,
+      6,
+      8,
+      9
+    ]
+  },
+  {
+    "col_name": "credit_self_12m",
+    "split_box": [
+      0,
+      3,
+      6,
+      9
+    ]
+  },
+  {
+    "col_name": "credit_internet_12m",
+    "split_box": [
+      7,
+      12,
+      15,
+      19
+    ]
+  },
+  {
+    "col_name": "br_un_offline",
+    "split_box": [
+      0,
+      30,
+      50,
+      70,
+      100
+    ]
+  },
+  {
+    "col_name": "br_un_credit_card",
+    "split_box": [
+      0,
+      30,
+      50,
+      70,
+      100
+    ]
+  },
+  {
+    "col_name": "br_credit_afc",
+    "split_box": [
+      300,
+      400,
+      600,
+      850
+    ]
+  },
+  {
+    "col_name": "br_afc_rent",
+    "split_box": [
+      300,
+      400,
+      600,
+      850
+    ]
+  },
+  {
+    "col_name": "br_credit_offline",
+    "split_box": [
+      300,
+      400,
+      600,
+      850
+    ]
+  },
+  {
+    "col_name": "br_credit_online",
+    "split_box": [
+      300,
+      400,
+      600,
+      850
+    ]
+  },
+  {
+    "col_name": "br_consum_offline",
+    "split_box": [
+      300,
+      400,
+      600,
+      850
+    ]
+  },
+  {
+    "col_name": "br_credit_consum_online",
+    "split_box": [
+      300,
+      400,
+      600,
+      850
+    ]
+  },
+  {
+    "col_name": "br_credit_card_pay",
+    "split_box": [
+      300,
+      400,
+      600,
+      850
+    ]
+  },
+  {
+    "col_name": "br_score_credit_card",
+    "split_box": [
+      300,
+      400,
+      600,
+      850
+    ]
+  },
+  {
+    "col_name": "td_score_two",
+    "split_box": [
+      0,
+      20,
+      50,
+      70,
+      100
+    ]
+  },
+  {
+    "col_name": "td_bank_score",
+    "split_box": [
+      300,
+      420,
+      600,
+      720
+    ]
+  },
+  {
+    "col_name": "td_loan_score",
+    "split_box": [
+      300,
+      420,
+      600,
+      720
+    ]
+  },
+  {
+    "col_name": "card_overdue_months_in_1y",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "card_overdue_over90_in_1y",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "loan_settle_past6m",
+    "split_box": [
+      0,
+      1,
+      4,
+      8
+    ]
+  },
+  {
+    "col_name": "loan_settle_past6m_ratio",
+    "split_box": [
+      0,
+      0.1,
+      0.2,
+      0.4
+    ]
+  },
+  {
+    "col_name": "loan_award_past6m",
+    "split_box": [
+      0,
+      1000,
+      5000,
+      10000
+    ]
+  },
+  {
+    "col_name": "loan_overdue_month_1y",
+    "split_box": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "col_name": "loan_90overdue_1y",
+    "split_box": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "col_name": "loan_house_overdue_month_1y",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "loan_house_90overdue_1y",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "loan_count_normal_in_1y",
+    "split_box": [
+      0,
+      2,
+      5,
+      10
+    ]
+  },
+  {
+    "col_name": "loan_ratio_normal_in_1y",
+    "split_box": [
+      0,
+      0.4,
+      0.6000000000000001,
+      0.8
+    ]
+  },
+  {
+    "col_name": "loan_count_settle_in_1y",
+    "split_box": [
+      0,
+      2,
+      5,
+      10
+    ]
+  },
+  {
+    "col_name": "loan_ratio_settle_in_1y",
+    "split_box": [
+      0,
+      0.1,
+      0.2,
+      0.4
+    ]
+  },
+  {
+    "col_name": "loan_count_overdue_in_1y",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "loan_ratio_overdue_in_1y",
+    "split_box": [
+      0,
+      0.1,
+      0.2
+    ]
+  },
+  {
+    "col_name": "loan_count_doubtful_in_1y",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "loan_count_out_in_1y",
+    "split_box": [
+      0,
+      1
+    ]
+  },
+  {
+    "col_name": "loan_money_over_20",
+    "split_box": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "col_name": "loan_money_over_50",
+    "split_box": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "col_name": "card_dur_new",
+    "split_box": [
+      0,
+      6,
+      12,
+      24
+    ]
+  },
+  {
+    "col_name": "loan_dur",
+    "split_box": [
+      0,
+      12,
+      24,
+      36
+    ]
+  },
+  {
+    "col_name": "loan_first_notstudent_dur",
+    "split_box": [
+      0,
+      12,
+      24,
+      36
+    ]
+  },
+  {
+    "col_name": "loan_last_dur",
+    "split_box": [
+      0,
+      6,
+      12,
+      24
+    ]
+  },
+  {
+    "col_name": "loan_last_notstudent_dur",
+    "split_box": [
+      0,
+      6,
+      12,
+      24
+    ]
+  },
+  {
+    "col_name": "call_1m",
+    "split_box": [
+      0,
+      10,
+      30,
+      60
+    ]
+  },
+  {
+    "col_name": "call_1m_z",
+    "split_box": [
+      0,
+      10,
+      20,
+      40
+    ]
+  },
+  {
+    "col_name": "call_1m_b",
+    "split_box": [
+      0,
+      10,
+      20,
+      40
+    ]
+  },
+  {
+    "col_name": "call_1w",
+    "split_box": [
+      0,
+      10,
+      20,
+      30
+    ]
+  },
+  {
+    "col_name": "call_1w_z",
+    "split_box": [
+      0,
+      5,
+      10,
+      20
+    ]
+  },
+  {
+    "col_name": "call_1w_b",
+    "split_box": [
+      0,
+      5,
+      10,
+      20
+    ]
+  },
+  {
+    "col_name": "call_1w_n",
+    "split_box": [
+      0,
+      0.1,
+      0.2,
+      0.5
+    ]
+  },
+  {
+    "col_name": "call_1m_diff",
+    "split_box": [
+      0,
+      0.2,
+      0.5,
+      0.8
+    ]
+  },
+  {
+    "col_name": "call_1m_city_z",
+    "split_box": [
+      0,
+      2,
+      5,
+      10
+    ]
+  },
+  {
+    "col_name": "call_1m_city_b",
+    "split_box": [
+      0,
+      2,
+      5,
+      10
+    ]
+  },
+  {
+    "col_name": "final_score",
+    "split_box": [
+      0,
+      30,
+      50,
+      70,
+      100
+    ]
+  },
+  {
+    "col_name": "court_total_account",
+    "split_box": [
+      0,
+      10
+    ]
+  },
+  {
+    "col_name": "court_fill_money",
+    "split_box": [
+      0,
+      10000,
+      50000
+    ]
+  },
+  {
+    "col_name": "risk_low_num",
+    "split_box": [
+      0,
+      10,
+      30
+    ]
+  },
+  {
+    "col_name": "risk_medium_num",
+    "split_box": [
+      0,
+      10,
+      30
+    ]
+  },
+  {
+    "col_name": "risk_high_num",
+    "split_box": [
+      0,
+      10,
+      30
+    ]
+  },
+  {
+    "col_name": "plat_num_1w",
+    "split_box": [
+      0,
+      10,
+      30
+    ]
+  },
+  {
+    "col_name": "plat_num_1m",
+    "split_box": [
+      0,
+      10,
+      30
+    ]
+  },
+  {
+    "col_name": "plat_num_3m",
+    "split_box": [
+      0,
+      10,
+      30
+    ]
+  },
+  {
+    "col_name": "plat_num_6m",
+    "split_box": [
+      0,
+      10,
+      30
+    ]
+  },
+  {
+    "col_name": "plat_num_1y",
+    "split_box": [
+      0,
+      10,
+      30
+    ]
+  },
+  {
+    "col_name": "plat_num_2y",
+    "split_box": [
+      0,
+      10,
+      30
+    ]
+  },
+  {
+    "col_name": "discredit_times",
+    "split_box": [
+      0,
+      10,
+      30
+    ]
+  },
+  {
+    "col_name": "overdue_times",
+    "split_box": [
+      0,
+      10,
+      30
+    ]
+  },
+  {
+    "col_name": "in_debt_house_1",
+    "split_box": [
+      3000,
+      5000,
+      8000,
+      10000
+    ]
+  },
+  {
+    "col_name": "in_debt_nohouse_1",
+    "split_box": [
+      1000,
+      3000,
+      5000,
+      10000
+    ]
+  },
+  {
+    "col_name": "in_debt_house_5",
+    "split_box": [
+      3000,
+      5000,
+      8000,
+      10000
+    ]
+  },
+  {
+    "col_name": "in_debt_nohouse_5",
+    "split_box": [
+      1000,
+      3000,
+      5000,
+      10000
+    ]
+  },
+  {
+    "col_name": "in_debt_house_10",
+    "split_box": [
+      3000,
+      5000,
+      8000,
+      10000
+    ]
+  },
+  {
+    "col_name": "in_debt_nohouse_10",
+    "split_box": [
+      1000,
+      3000,
+      5000,
+      10000
+    ]
+  },
+  {
+    "col_name": "debt_house_ratio1",
+    "split_box": [
+      0,
+      10,
+      30,
+      50,
+      70
+    ]
+  },
+  {
+    "col_name": "debt_nohouse_ratio1",
+    "split_box": [
+      0,
+      10,
+      30,
+      50,
+      70
+    ]
+  },
+  {
+    "col_name": "debt_house_ratio5",
+    "split_box": [
+      0,
+      10,
+      30,
+      50,
+      70
+    ]
+  },
+  {
+    "col_name": "debt_nohouse_ratio5",
+    "split_box": [
+      0,
+      10,
+      30,
+      50,
+      70
+    ]
+  },
+  {
+    "col_name": "debt_house_ratio10",
+    "split_box": [
+      0,
+      10,
+      30,
+      50,
+      70
+    ]
+  },
+  {
+    "col_name": "debt_nohouse_ratio10",
+    "split_box": [
+      0,
+      10,
+      30,
+      50,
+      70
+    ]
+  },
+  {
+    "col_name": "loan_count_bank_rcu_commerce",
+    "split_box": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "col_name": "card_unactivated",
+    "split_box": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "col_name": "card_freeze",
+    "split_box": [
+      0
+    ]
+  },
+  {
+    "col_name": "card_doubtful",
+    "split_box": [
+      0
+    ]
+  },
+  {
+    "col_name": "loan_settle_past3m_ratio",
+    "split_box": [
+      0
+    ]
+  },
+  {
+    "col_name": "loan_settle_past1m_ratio",
+    "split_box": [
+      0
+    ]
+  },
+  {
+    "col_name": "loan_ratio_bank_village",
+    "split_box": [
+      0
+    ]
+  },
+  {
+    "col_name": "loan_ratio_bank_foreign",
+    "split_box": [
+      0
+    ]
+  },
+  {
+    "col_name": "loan_ratio_afc",
+    "split_box": [
+      0
+    ]
+  },
+  {
+    "col_name": "loan_count_doubtful",
+    "split_box": [
+      0
+    ]
+  },
+  {
+    "col_name": "card_decrease",
+    "split_box": [
+      0,
+      1
+    ]
+  }
+]
