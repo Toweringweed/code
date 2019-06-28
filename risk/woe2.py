@@ -8,9 +8,9 @@ import math
 import re
 import json
 
-def calculating_age(loan_id, id_card):
+def calculating_age(id, id_card):
     try:
-        data_in = parse(re.findall(r'\d{8}', loan_id)[0])
+        data_in = parse(re.findall(r'\d{8}', id)[0])
     except IndexError:
         data_in = datetime.today()
     born = parse(id_card[6:14])
@@ -150,12 +150,12 @@ def cal_woe(df, classification, col_count, feature_list, other_var):
 # df.info()
 # df.head()
 
- 数据分箱
+
 def re_trans(df, ChiMerge_list, target, onkey, save_path):
-    df_chis = df.loc[:, ['loan_id', 'user_mark', 'classification']]
+    df_chis = df.loc[:, ['id', 'user_mark', 'classification']]
     for var_li in lisan_list:
-        df_li = df.loc[:, ['loan_id', var_li]]
-        df_chis = pd.merge(df_chis, df_li, how='left', on='loan_id')
+        df_li = df.loc[:, ['id', var_li]]
+        df_chis = pd.merge(df_chis, df_li, how='left', on='id')
     for col in ChiMerge_list:
         print(col)
         df[col] = df[col].replace('-', None).astype(float)
@@ -178,7 +178,7 @@ def re_trans(df, ChiMerge_list, target, onkey, save_path):
 
 
 
- 数据分箱
+
 df_list = pd.read_excel(r'd:/data/model/model_dict.xlsx')
 df = pd.read_excel(r'd:/data/model/use_data.xlsx')
 df = df.fillna(-99)
@@ -187,15 +187,15 @@ lisan_list = ['sex']
 list_var = list(df_list[(df_list.使用==1)&(df_list.属性=="num")]['英文'])
 df = df[(df.classification == 'good')|(df.classification == 'bad')]
 df['user_mark'] = df['classification'].map(lambda x: 1 if x=="good" else 0)
-re_trans(df, list_var, 'user_mark', 'loan_id', save_path=r'd:/data/model/data_614.csv')
+re_trans(df, list_var, 'user_mark', 'id', save_path=r'd:/data/model/data_614.csv')
 
 
 df = pd.read_csv('d:/data/model/data_614.csv')
 # df['product'] = df['con_product_name']
 dfc = split_random(df, 5)
 df_split = set_train_test(dfc, 5, 1)
-cal_woe(df_split, 'classification', 'loan_id', feature_list=list_var,
-        other_var=['loan_id', 'classification', 'user_mark', 'train_test'])
+cal_woe(df_split, 'classification', 'id', feature_list=list_var,
+        other_var=['id', 'classification', 'user_mark', 'train_test'])
 
 
 
